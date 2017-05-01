@@ -1,0 +1,89 @@
+* {
+  font-family: 'Dosis', sans-serif;
+  width: 100%;
+}
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 150px;
+  background-image: url("../img/35_writing.png");
+  background-size: 100%;
+  margin-bottom: 50px;
+}
+label{
+  margin-top: 10px;
+  width: 200px;
+  margin-left: 40%;
+  display:block;
+}
+input{
+  width: 200px;
+  margin-left:40%;
+}
+.form-terms{
+  width: 50px;
+  margin-left: 40%;
+}
+.form-terms-one{
+  position: absolute;
+  display: inline-block;
+  margin-left: 0;
+  width: 300px;
+}
+textarea{
+  width: 300px;
+  margin-left: 40%;
+}
+.boton{
+  width: 100px;
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 40%;
+  background-color: #d76713;
+  border:#d76713;
+}
+.tooltip  {
+   display: none;
+   position: absolute;
+   width: 250px;
+   padding: 30px;
+   margin: 0 0 50px 0;
+   z-index: 100;
+   bottom: 100%;
+   text-align: center;
+   font-weight: bold;
+   font-size: 11px;
+}
+.tooltiptext {
+   visibility: show;
+   opacity: 0.7;
+   width: 250px;
+   background-color: #d76713;
+   color: white;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 0;
+   position: absolute;
+   z-index: 1;
+   top: 9px;
+   left: 56%;
+}
+.input-box {
+  position: relative;
+}
+.input-box span:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 10px solid rgba(215,103,19,0.8);
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: 100%;
+  top:6px;
+}

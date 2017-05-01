@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png" rel="shortcut icon">
+  <title>Formulario</title>
+</head>
+<body>
+  <header></header>
+  <form id="formulario">
+    <div class="datos input-box">
+     <label>Nombre: </label>
+     <input type="text" id="name" class="form-name" placeholder="Ingrese su nombre">
+     <span id="name_issue"></span>
+    </div>
+    <div class="datos input-box">
+     <label>Apellidos</label>
+     <input type="text" id="lastname" class="form-lastname" placeholder="Ingrese su apellido">
+     <span  id="lastname_issue"></span>
+    </div>
+    <div class="datos input-box">
+     <label>Fecha de Nacimiento:</label>
+     <input type="date" id="born" class="form-born">
+     <span  id="born_issue"></span>
+    </div>
+    <div class="datos input-box">
+     <label>DNI :</label>
+     <input type="number" id="dni" class="form-dni" placeholder="Ingrese DNI">
+     <span id="dni_issue"></span>
+    </div>
+    <div class="datos input-box">
+     <label>Celular :</label>
+     <input type="number" id="celphone" class="form-celphone" placeholder="Ingrese Celucar">
+     <span  id="celphone_issue"></span>
+    </div>
+    <div class="datos input-box">
+     <label>Telefono de Casa:</label>
+     <input type="number" id="phone" class="form-phone" placeholder="Ingrese Numero de casa">
+     <span id="phone_issue"></span>
+    </div>
+    <div class="datos input-box">
+     <label>Contraseña:</label>
+     <input type="password" id="pssw" class="form-pssw" placeholder="Ingrese contraseña">
+     <span id="pssw_issue"></span>
+    </div>
+    <div class="datos input-box">
+    <label>Confirmacion de Contraseña:</label>
+    <input type="password" id="pssw-two" class="form-pssw-two" placeholder="Vuelva Ingresar contraseña">
+    <span id="psswd_issue"></span>
+   </div>
+   <div class="datos input-box">
+   <label>Comentarios:</label>
+   <textarea name="coments" id="coments" rows="8" cols="80" placeholder="Escriba Comentario"></textarea>
+   <span id="coments_issue"></span>
+  </div>
+  <div>
+    <input type="checkbox" id="terms" class="form-terms">
+    <label class="form-terms-one">Acepto Terminos y Condiciones</label>
+    <span id= "check_issue"></span>
+  </div>
+ <button  id= "boton" class="boton" >Send</button>
+ </form>
+<script type="text/javascript" src='assets/js/app.js'></script>
+</body>
+</html>
